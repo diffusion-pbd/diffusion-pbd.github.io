@@ -94,7 +94,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="#"
+                <a href="https://mmurray.com/papers/diff_pbd_iros_2024.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -103,6 +103,15 @@
                 </a>
               </span>
               <span class="link-block">
+                <a href="https://mmurray.com/posters/diffpbd_poster_iros24.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -110,10 +119,10 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=8_9Lfxwn7Y8"
+                <a href="https://www.youtube.com/watch?v=qhyhIqmIqng"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -177,11 +186,11 @@
         </video>
       </div>
       <br/>
-      <!-- <h2 class="subtitle has-text-centered">
+       <h2 class="subtitle has-text-centered">
         <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
         free-viewpoint
         portraits.
-      </h2> -->
+      </h2> 
     </div>
   </div>
 </section>-->
@@ -265,7 +274,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/8_9Lfxwn7Y8?rel=0&amp;showinfo=0"
+          <iframe src="https://www.youtube.com/embed/qhyhIqmIqng?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
@@ -275,30 +284,90 @@
 </section>
 
 
+
+
+
+
+
 <section class="section">
   <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-4">Generalization to Unseen Objects, Viewpoints, and Scenes</h2>
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-4"><bold>Generalization to Unseen Objects, Viewpoints, and Scenes</bold></h2>
+          <div class="content">
+            <div class="columns is-centered has-text-centered is-full-width">
+              <div class="column">
+                  <video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_gen_human.mp4" width="100%" style="border-radius:10px; "></video>
+              </div>
+              <div class="column is-one-third">
+                <video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_gen_1.mp4" width="100%" style="border-radius:10px; "></video>
+                <video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_gen_2.mp4" width="100%" style="border-radius:10px; "></video>
+                <video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_gen_3.mp4" width="100%" style="border-radius:10px; "></video>
+              </div>
+            </div>
+            
+          </div>
       </div>
     </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-4">Contribution of Stable Diffusion Features</h2>
-      </div>
-    </div>
-
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-4">Wide Variety of Manipulation Skills</h2>
-      </div>
-    </div>
-
-
   </div>
+</div>
 </section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-4"><bold>Wide Variety of Manipulation Skills</bold></h2>
+          <div class="content">
+            <div class="columns is-centered has-text-centered is-full-width">
+              <div class="column">
+                  <video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_var_all.mp4" width="100%" style="border-radius:10px; "></video>
+              </div>
+              <!-- <div class="column">
+                <div class="columns">
+                  <div class="column" style="position:relative;right:-15px;"><video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_var_hu_2.mp4" width="100%" style="border-radius:10px; "></video></div>
+                  <div class="column"><video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_var_ro_2.mp4" width="100%" style="border-radius:10px; "></video></div>
+                  </div>
+              </div> -->
+            </div>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-4"><bold>Contribution of Stable Diffusion Features</bold></h2>
+          <div class="content">
+            <div class="columns is-centered has-text-centered is-full-width">
+              <div class="column">
+                  <img src="/static/images/diffpbd_dift_baselines.png" width="100%">
+              </div>
+              <div class="column">
+                  <img src="/static/images/diffpbd_dift_table.png" width="100%">
+              </div>
+              <!-- <div class="column">
+                <div class="columns">
+                  <div class="column" style="position:relative;right:-15px;"><video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_var_hu_2.mp4" width="100%" style="border-radius:10px; "></video></div>
+                  <div class="column"><video class="center" playsinline="" autoplay="" loop="" muted="" src="/static/videos/diffpbd_var_ro_2.mp4" width="100%" style="border-radius:10px; "></video></div>
+                  </div>
+              </div> -->
+            </div>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
 
 
 <!-- <section class="section" id="BibTeX">
